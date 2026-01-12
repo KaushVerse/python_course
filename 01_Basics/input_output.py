@@ -10,4 +10,7 @@ name = input('Enter your name: ')
 # Multiple values, formatting, end  & sep options support karta hai.
 
 print('Hello', name)
-print(f"Hello, {name}")
+
+# Example with type conversion
+age = int(input('Enter your age: '))
+print(f"You are {age} years old.")
